@@ -116,7 +116,7 @@ Back to top
 
 ### Muestras
 
-![muestra-medium](C:\Users\Cursos\Desktop\examen bootstrap\muestra-medium.png)
+![muestra-medium] <img src="./documents/muestra-medium.png" alt="modelo en tamaño medio">
 
 ---
 
