@@ -116,8 +116,8 @@ Back to top
 
 ### Muestras
 
-![muestra-medium] <img src="./documents/muestra-medium.png" alt="modelo en tamaño medio">
+[muestra-medium] <img src="./documents/muestra-medium.png" alt="modelo en tamaño medio">
 
 ---
 
-<img src="C:\Users\Cursos\Desktop\examen bootstrap\muestra-mobile.png" alt="muestra-mobile" style="zoom: 33%;" />
+[muestra-mobile] <img src="./documents/muestra-mobile.png" alt="muestra-mobile" style="zoom: 33%;" />
