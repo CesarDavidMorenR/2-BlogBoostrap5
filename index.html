@@ -9,13 +9,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Styles -->
-  <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
   
   <title>Blog Bootstrap5</title>
 </head>
-<body class="">
-    <header class="nav">
-        <div class=" container-fluid d-flex">
+<body class="container">
+    <header class="container mt-3">
+        <div class=" container-fluid d-flex border-bottom">
         <h1 class="ms-auto">Large</h1>
         
             <div class="ms-auto">
@@ -24,18 +27,120 @@
                 </button>
             </div>
        </div>
-       <nav class=" nav border-top">
-        <a class="nav-link text-muted" href="#">World</a>
-        <a class="nav-link text-muted" href="#">Techology</a>
-        <a class="nav-link text-muted" href="#">Design</a>
-        <a class="nav-link text-muted" href="#">Opinion</a>
-        <a class="nav-link text-muted" href="#">Science</a>
-        <a class="nav-link text-muted" href="#">Style</a>
-        <a class="nav-link text-muted" href="#">Travel</a>
-        
-    </nav>
+
+       <nav class="container-fluid">
+        <div class="d-flex justify-content-between flex-wrap">
+            <a class="nav-link text-muted " href="#">World</a>
+            <a class="nav-link text-muted" href="#">Techology</a>
+            <a class="nav-link text-muted" href="#">Design</a>
+            <a class="nav-link text-muted" href="#">Opinion</a>
+            <a class="nav-link text-muted" href="#">Science</a>
+            <a class="nav-link text-muted" href="#">Style</a>
+            <a class="nav-link text-muted" href="#">Travel</a>
+        </div>
+       </nav>
+
     </header>
 
+  <main>
+
+    <section class="ImagePrinci p-2">
+        
+    <p class="m-0">
+        <h2 class="text-white mb-0">Title of a longer featured blog post</h2> <br>
+          <p class="text-white">
+    Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.
+           
+      <br>
+      <br>
+      <span class="fw-bold">Continue reading...</span>
+        </p>
+    </p>
+    </section>
+  </main>
+
+  <section class="mb-4 mt-3 shadow p-4">
+    <p class="text-primary fw-bold">World</p>
+    <h2>Featured post</h2>
     
+    <p class="text-muted">Nov 12</p>
+    
+    This is a wider card with supporting text below as a natural lead-in to additional content.
+    <br>
+    <p class="text-primary">Continue reading</p>
+  </section>
+
+  <section class="mb-4 shadow p-4">
+    <p class="text-success fw-bold">Design</p>
+
+    <h2>Post title</h2>
+    
+    <p class="text-muted">Nov 11</p>
+    
+    This is a wider card with supporting text below as a natural lead-in to additional content.
+    <br>
+    <p class="text-primary">Continue reading</p>
+  </section>
+
+  <section class="mb-4 shadow p-4">
+    <h2 class="border-bottom pb-3">From the Firehose</h2>
+
+    <h2>Sample blog post</h2>
+    
+    <p class="text-muted">January 1, 2014 by <a href="#" class="link-primary">Mark</a></p>
+    
+    <p class="border-bottom pb-3">This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+    
+    Cum sociis natoque penatibus et magnis <a href="#" class="link-primary">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+    
+    Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    
+    Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+    
+    Heading Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+    
+    Sub-heading Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    
+    Example code block Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+    
+    Sub-heading Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+    
+    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+    
+    Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+    
+    Older Newer
+  </section>
+
+  <section class="mb-4 shadow p-4">
+    About
+
+    Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+    
+    Archives
+    
+    March 2014 February 2014 January 2014 December 2013
+    
+    Social
+  </section>
+
+  <section class="mb-4 shadow p-4">
+    Archives
+
+    March 2014 February 2014 January 2014 December 2013
+  </section>
+
+  <aside class="mb-4 shadow p-4">
+    Social
+  </aside>
+
+    <footer class="bg-light border-top text-center">
+        <h1>
+            <p class="fs-6">
+                Ejemplo de blog construído con Bootstrap 5
+            </p>
+            <a href="#" class="fs-6">Back to top</a>
+        </h1>
+    </footer>
 </body>
 </html>
